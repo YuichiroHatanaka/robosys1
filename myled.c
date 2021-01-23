@@ -1,3 +1,5 @@
+// モールス信号の”あいうえお”をLEDで出力する。
+
  #include <linux/module.h>
  #include <linux/fs.h>
  #include <linux/cdev.h>
@@ -32,11 +34,13 @@
                  mdelay(1000);
                  gpio_base[7] = 1 << 25;
                  }
-         else if(c == '3'){
+        　else if(c == '3'){
                  gpio_base[7] = 1 << 25;
                  mdelay(1000);
                  gpio_base[10] = 1 << 25;
          }
+  
+    //”あ”の出力
          else if(c == 'a'){
                  gpio_base[7] = 1 << 25;
                  mdelay(300);
@@ -58,6 +62,8 @@
                  mdelay(300);
                  gpio_base[10] = 1 << 25;
          }
+  
+    //”い”の出力
          else if(c == 'i'){
                  gpio_base[7] = 1 << 25;
                  mdelay(100);
@@ -67,6 +73,8 @@
                  mdelay(300);
                  gpio_base[10] = 1 << 25;
          }
+  
+    //”う”の出力
          else if(c == 'u'){
                  gpio_base[7] = 1 << 25;
                  mdelay(100);
@@ -80,6 +88,8 @@
                  mdelay(300);
                  gpio_base[10] = 1 << 25;
          }
+  
+    //”え”の出力
          else if(c == 'e'){
                  gpio_base[7] = 1 << 25;
                  mdelay(300);
@@ -101,6 +111,8 @@
                  mdelay(300);
                  gpio_base[10] = 1 << 25;
          }
+  
+    //”お”の出力
          else if(c == 'o'){
                  gpio_base[7] = 1 << 25;
                  mdelay(100);
