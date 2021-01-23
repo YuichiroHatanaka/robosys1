@@ -80,3 +80,11 @@ LEDが点灯し、1秒後に消灯
   "お"のモールス信号が出力される
  
 ---
+## 実行動画
+
+動画URL:https://youtu.be/vAC13WaXVMQ
+
+youtubeにあげた実行動画はこちらになります。
+
+## ライセンス
+[GNU General Public License v3.0](https://github.com/YuichiroHatanaka/robosys1/blob/main/README.md)
