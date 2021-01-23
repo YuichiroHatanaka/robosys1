@@ -14,6 +14,12 @@
 * ジャンパー線 オス−メス *2
 
 ---
+## 回路
+以下のように回路を組みました。
+
+<img src=https://github.com/NATSUMETAKAFUMI/robosys/blob/main/IMG_0203%5B1%5D.JPG width=500px/>
+LEDはアノードがGPIO25に接続しています。GNDはどこでも構いません。
+---
 
 ## ビルド
 実行する場合、以下のように行ってください。
