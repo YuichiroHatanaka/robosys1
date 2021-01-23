@@ -17,7 +17,7 @@
 ## 回路
 以下のように回路を組みました。
 
-<img src=https://github.com/YuichiroHatanaka/robosys1/blob/main/PXL_20210123_153820663.jpg>
+<img src=https://github.com/YuichiroHatanaka/robosys1/blob/main/PXL_20210123_153820663.jpg width=500px/>
 LEDはアノードがGPIO25に接続しています。GNDはどこでも構いません。
 ---
 
